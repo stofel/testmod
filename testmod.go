@@ -1,6 +1,9 @@
 package testmod
 
-import "fmt"
+import (
+  "fmt"
+  "errors"
+)
 
 func Hi(name, lang string) (string, error) {
   switch lang {
